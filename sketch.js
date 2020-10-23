@@ -7,10 +7,10 @@ function preload()
   dog1 = loadImage("images/Dog.png");
   dog2 = loadImage("images/hap.png");
   bg1 = loadImage("images/0.png");
-    for (let i = 1; i < 5; i++) {
-
-    room[i] = loadImage("images/r"+i+".png")
-  }
+  room[0] = loadImage("images/r1.png")
+  room[1] = loadImage("images/r2.png")
+  room[2] = loadImage("images/r3.png")
+  room[3] = loadImage("images/r4.png")
 }
 
 function setup() {
